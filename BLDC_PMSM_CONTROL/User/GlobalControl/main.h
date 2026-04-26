@@ -1,0 +1,6 @@
+#ifndef BLDC_GLOBALCONTROL_MAIN_SHIM_H
+#define BLDC_GLOBALCONTROL_MAIN_SHIM_H
+
+#include "../../../USER/main.h"
+
+#endif /* BLDC_GLOBALCONTROL_MAIN_SHIM_H */

@@ -1,0 +1,6 @@
+#ifndef BLDC_MOTORCONTROL_MAIN_SHIM_H
+#define BLDC_MOTORCONTROL_MAIN_SHIM_H
+
+#include "../../../USER/main.h"
+
+#endif /* BLDC_MOTORCONTROL_MAIN_SHIM_H */

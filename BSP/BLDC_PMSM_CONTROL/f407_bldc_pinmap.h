@@ -1,0 +1,78 @@
+#ifndef F407_BLDC_PINMAP_H
+#define F407_BLDC_PINMAP_H
+
+/*
+ * STM32F407 motor-control pin mapping (Step 1 baseline)
+ */
+
+/* Keys */
+#define KEY0_GPIO_PORT GPIOE
+#define KEY0_GPIO_PIN  GPIO_PIN_2
+
+#define KEY1_GPIO_PORT GPIOE
+#define KEY1_GPIO_PIN  GPIO_PIN_3
+
+#define KEY2_GPIO_PORT GPIOE
+#define KEY2_GPIO_PIN  GPIO_PIN_4
+
+/* SPI2 (DRV interface) */
+#define SPI_CS_GPIO_PORT GPIOI
+#define SPI_CS_GPIO_PIN  GPIO_PIN_0
+
+#define SPI_CLK_GPIO_PORT GPIOI
+#define SPI_CLK_GPIO_PIN  GPIO_PIN_1
+
+#define SPI_MISO_GPIO_PORT GPIOI
+#define SPI_MISO_GPIO_PIN  GPIO_PIN_2
+
+#define SPI_MOSI_GPIO_PORT GPIOI
+#define SPI_MOSI_GPIO_PIN  GPIO_PIN_3
+
+/* LEDs */
+#define LED1_GPIO_PORT GPIOB
+#define LED1_GPIO_PIN  GPIO_PIN_4
+
+#define LED2_GPIO_PORT GPIOB
+#define LED2_GPIO_PIN  GPIO_PIN_5
+
+/* BEMF sensing */
+#define BEMFW_GPIO_PORT GPIOF
+#define BEMFW_GPIO_PIN  GPIO_PIN_7
+
+#define BEMFV_GPIO_PORT GPIOF
+#define BEMFV_GPIO_PIN  GPIO_PIN_8
+
+#define BEMFU_GPIO_PORT GPIOF
+#define BEMFU_GPIO_PIN  GPIO_PIN_9
+
+/* Current amplifier outputs */
+#define AMPW_GPIO_PORT GPIOA
+#define AMPW_GPIO_PIN  GPIO_PIN_3
+
+#define AMPV_GPIO_PORT GPIOA
+#define AMPV_GPIO_PIN  GPIO_PIN_6
+
+#define AMPU_GPIO_PORT GPIOB
+#define AMPU_GPIO_PIN  GPIO_PIN_0
+
+/* PWM high-side */
+#define PWM_UH_GPIO_PORT GPIOI
+#define PWM_UH_GPIO_PIN  GPIO_PIN_5
+
+#define PWM_VH_GPIO_PORT GPIOI
+#define PWM_VH_GPIO_PIN  GPIO_PIN_6
+
+#define PWM_WH_GPIO_PORT GPIOI
+#define PWM_WH_GPIO_PIN  GPIO_PIN_7
+
+/* PWM low-side */
+#define PWM_UL_GPIO_PORT GPIOH
+#define PWM_UL_GPIO_PIN  GPIO_PIN_13
+
+#define PWM_VL_GPIO_PORT GPIOH
+#define PWM_VL_GPIO_PIN  GPIO_PIN_14
+
+#define PWM_WL_GPIO_PORT GPIOH
+#define PWM_WL_GPIO_PIN  GPIO_PIN_15
+
+#endif /* F407_BLDC_PINMAP_H */

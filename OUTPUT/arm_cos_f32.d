@@ -1,0 +1,10 @@
+..\..\output\arm_cos_f32.o: ..\..\BSP\CMSIS\DSP\Source\FastMathFunctions\arm_cos_f32.c
+..\..\output\arm_cos_f32.o: ..\..\BSP\CMSIS\DSP\Include\arm_math.h
+..\..\output\arm_cos_f32.o: ..\..\BSP\CMSIS\Include\core_cm4.h
+..\..\output\arm_cos_f32.o: C:\KEIL5\KEIL5\ARM\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\arm_cos_f32.o: ..\..\BSP\CMSIS\Include\cmsis_version.h
+..\..\output\arm_cos_f32.o: ..\..\BSP\CMSIS\Include\cmsis_compiler.h
+..\..\output\arm_cos_f32.o: ..\..\BSP\CMSIS\Include\cmsis_armcc.h
+..\..\output\arm_cos_f32.o: C:\KEIL5\KEIL5\ARM\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\arm_cos_f32.o: C:\KEIL5\KEIL5\ARM\ARM\ARMCC\Bin\..\include\math.h
+..\..\output\arm_cos_f32.o: ..\..\BSP\CMSIS\DSP\Include\arm_common_tables.h
